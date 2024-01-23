@@ -70,7 +70,7 @@ nav > div {
     text-decoration: none;
 }
 
-/* Main content styling */
+
 .main-content {
     padding: 20px;
     text-align: center;
@@ -109,7 +109,7 @@ nav > div {
     color: #123456;
 }
 
-/* Responsive design */
+
 @media screen and (max-width: 600px) {
     .navbar-container {
         flex-direction: column;
@@ -123,9 +123,7 @@ nav > div {
     }
 }
 
-/* Existing styles */
 
-/* Carousel Container */
 #players-carousel {
     display: flex;
     flex-direction: column;
@@ -134,7 +132,7 @@ nav > div {
     margin: 20px 0;
 }
 
-/* Carousel Styling */
+
 .carousel {
     display: flex;
     overflow-x: auto;
@@ -142,11 +140,11 @@ nav > div {
     scroll-snap-type: x mandatory;
 }
 
-/* Player Card */
+
 .player-card {
     flex: 0 0 auto;
     width: 300px;
-    /* Adjust based on your design */
+
     margin: 10px;
     text-align: center;
     scroll-snap-align: start;
@@ -166,7 +164,7 @@ nav > div {
     padding: 10px;
 }
 
-/* Carousel Controls */
+
 .carousel-control {
     padding: 10px 20px;
     margin: 5px;
@@ -178,11 +176,10 @@ nav > div {
     font-size: 16px;
 }
 
-/* Adjust player-card style to work with JavaScript */
+
 .player-card {
-    /* other styles */
+    
     display: none;
-    /* Hide all initially */
+    
 }
 
-/* Add responsive design and more styling as needed */
