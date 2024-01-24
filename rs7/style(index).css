@@ -1,16 +1,19 @@
-
+/* Set default styles for the body */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
 }
+
+/* Style for the navigation container */
 nav > div {
     list-style-type: none;
-    
-    
+
+
 }
 
+/* Styles for the navbar container */
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -19,10 +22,12 @@ nav > div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Style for individual navigation items */
 .nav-item {
     position: relative;
 }
 
+/* Styles for the dropdown button */
 .dropbutton {
     background-color: #123456;
     color: white;
@@ -34,11 +39,13 @@ nav > div {
     transition: background-color 0.3s ease;
 }
 
+/* Hover and focus styles for the dropdown button */
 .dropbutton:hover,
 .dropbtn:focus {
     background-color: #0d2f5b;
 }
 
+/* Styles for the dropdown content */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -49,6 +56,7 @@ nav > div {
     border-radius: 4px;
 }
 
+/* Styles for the links within the dropdown content */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -57,29 +65,35 @@ nav > div {
     transition: background-color 0.3s ease;
 }
 
+/* Hover style for links within the dropdown content */
 .dropdown-content a:hover {
     background-color: #ddd;
 }
 
+/* Display dropdown content on hover */
 .nav-item:hover .dropdown-content {
     display: block;
 }
 
+/* Styles for general navigation links */
 .nav-link {
     color: white;
     text-decoration: none;
 }
 
-/* Main content styling */
+/* Styles for the main content */
 .main-content {
     padding: 20px;
     text-align: center;
 }
 
+
+/* Styles for heading within main content */
 .main-content h1 {
     color: #123456;
 }
 
+/* Styles for info section */
 .info-section {
     background-color: #ffffff;
     padding: 50px;
@@ -87,9 +101,9 @@ nav > div {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     color: #333;
-    
-    
 }
+
+/* Styles for section-info */
 .section-info {
     background-color: #ffffff;
     padding: 50px;
@@ -103,19 +117,22 @@ nav > div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
+
+/* Styles for heading within info section */
 .info-section h2 {
     color: #123456;
 }
 
-
+/* Media query for small screens */
 @media screen and (max-width: 600px) {
     .navbar-container {
         flex-direction: column;
         align-items: center;
     }
 
+    /* Set width to 100% and center text horizontally for dropdown button and its content links */
     .dropbtn,
     .dropdown-content a {
         width: 100%;
@@ -123,9 +140,7 @@ nav > div {
     }
 }
 
-
-
-
+/* Styles for players carousel container */
 #players-carousel {
     display: flex;
     flex-direction: column;
@@ -134,7 +149,7 @@ nav > div {
     margin: 20px 0;
 }
 
-
+/* Styles for the carousel */
 .carousel {
     display: flex;
     overflow-x: auto;
@@ -143,10 +158,10 @@ nav > div {
 }
 
 
+/* Styles for individual player cards */
 .player-card {
     flex: 0 0 auto;
     width: 300px;
-
     margin: 10px;
     text-align: center;
     scroll-snap-align: start;
@@ -155,6 +170,7 @@ nav > div {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* Styles for player card images */
 .player-card img {
     width: 100%;
     height: auto;
@@ -162,11 +178,12 @@ nav > div {
     border-top-right-radius: 10px;
 }
 
+/* Styles for player card description */
 .player-description {
     padding: 10px;
 }
 
-/* Carousel Controls */
+/* Styles for carousel control buttons */
 .carousel-control {
     padding: 10px 20px;
     margin: 5px;
@@ -178,10 +195,9 @@ nav > div {
     font-size: 16px;
 }
 
-
+/* Hide player cards by default */
 .player-card {
 
     display: none;
 
 }
-
